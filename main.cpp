@@ -12,9 +12,9 @@ int main()
 {
     vector<BokBok*> chickens;
 
-    chickens.push_back(new FriedBokBok("Santana", 10, 20, 30, 20));
-    chickens.push_back(new BraisedBokBok("Wolfey", 10, 20, 30, 20));
-    chickens.push_back(new RoastBokBok("Chickie", 10, 20, 30, 20));
+    chickens.push_back(new FriedBokBok("Santana", 10, 90, 10, 10));
+    chickens.push_back(new BraisedBokBok("Wolfey", 90, 10, 10, 10));
+    chickens.push_back(new RoastBokBok("Chickie", 10, 10, 90, 10));
 
     for(int i = 0; i < chickens.size(); i++)
         chickens[i]->displayStats();
